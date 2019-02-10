@@ -58,7 +58,7 @@ body {
 .menu li a{
 	text-decoration: none;
 	color: black;
-	padding: 20px 0;
+	padding: 20px;
 }
 
 .menu li a:hover,a:focus{
@@ -71,6 +71,11 @@ body {
 	max-width: 960px;
 	margin: 0 auto;
 	position: relative;
+	background-image: url("images/pozadi.jpg");
+	height:540px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 h1{
@@ -92,11 +97,11 @@ h1{
 	top: 180px;
 }
 
-.foto_pozadi{
-	max-width: 960px;
-}
-
-.foto_mobil{
+.fotky{
+	background-image: url("images/telefon.png");
+	background-repeat: no-repeat;
+	height:400px;
+	width: 500px;
 	position: absolute;
 	left: 555px;
 	top: 140px;
@@ -114,7 +119,6 @@ h1{
 	display: inline-block;
 	border: 1px solid white;
 	border-radius: 5px;
-	height:40px;
 	width:150px;
 	text-align: center;
 	padding:10px 0;
